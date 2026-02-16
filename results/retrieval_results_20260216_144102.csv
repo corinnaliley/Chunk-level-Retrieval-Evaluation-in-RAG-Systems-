@@ -1,0 +1,1 @@
+dataset;query_id;query_type;strategy;k_eval;hit_at_k;mrr;chain_mrr;ndcg_at_k;relevant_rank;chain_rank;latency_clean_ms;latency_penalty_ms;latency_end_to_end_ms;retrieved_ids;index_id;chunk_size;chunk_overlap;relevance_method;similarity_top_k_dense;similarity_top_k_sparse;rrf_top_k_per_retriever;mmr_alpha;k_final;embed_model;llama_index_version
