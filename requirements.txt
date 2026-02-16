@@ -1,0 +1,16 @@
+# Core
+llama-index>=0.10.0
+numpy>=1.23
+
+# Retrieval / BM25
+llama-index-retrievers-bm25>=0.1.0
+
+# OpenAI-compatible client (used for LLM + embeddings via OpenAILike/OpenAI)
+openai>=1.0.0
+httpx>=0.24.0
+
+# SAIA/Docling HTTP calls
+requests>=2.31.0
+
+# Local config
+python-dotenv>=1.0.0
