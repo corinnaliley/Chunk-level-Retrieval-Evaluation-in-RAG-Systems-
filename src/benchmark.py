@@ -17,9 +17,6 @@
 #     * backoff jitter uses random.uniform(); for strict reproducibility, log the seed
 #       or set it at process start. (This file itself does not set a seed.)
 #
-# Data hygiene
-# - Gold reference strings are treated as evaluation ground truth; keep them stable
-#   across runs when comparing retrieval settings.
 # -----------------------------------------------------------------------------
 from __future__ import annotations
 import math

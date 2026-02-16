@@ -13,8 +13,6 @@
 #     * bm25_language
 # - Deduplication logic (_dedupe) affects ranking and therefore MRR/nDCG.
 #
-# GitHub hygiene
-# - Keep DEFAULT_RETRIEVER_PARAMS stable across comparisons.
 # -----------------------------------------------------------------------------
 from __future__ import annotations
 from typing import List, Optional, Sequence

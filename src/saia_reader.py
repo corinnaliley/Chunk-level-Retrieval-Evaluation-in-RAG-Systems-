@@ -13,8 +13,6 @@ them with section path metadata for improved retrieval context.
 # - PDF conversion depends on an external service (SAIA/Docling) via loaders.convert_with_docling;
 #   for scientific runs, log SAIA endpoint/base URL + model/version if available.
 #
-# GitHub hygiene
-# - PROCESSED_DOCS_PATH points to a derived cache artifact (JSON). Do not commit it.
 # -----------------------------------------------------------------------------
 import json
 from pathlib import Path

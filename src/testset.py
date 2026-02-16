@@ -12,9 +12,6 @@
 #   chunks to count as full Hit@k.
 # - For paper reporting, freeze this file and record the repository commit hash.
 #
-# Data hygiene
-# - Gold snippets are extracted from official study regulations.
-# - If underlying source documents change, this testset must be versioned.
 # -----------------------------------------------------------------------------
 
 # testset.py

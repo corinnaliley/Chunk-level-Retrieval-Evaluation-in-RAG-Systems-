@@ -19,9 +19,6 @@ and final result export to CSV.
 #     * chunk size / overlap
 #   If these change, a new index_id is generated automatically.
 #
-# Data hygiene
-# - RESULTS_PATH and STORAGE_PATH contain derived artifacts and should not be
-#   committed to version control.
 # -----------------------------------------------------------------------------
 import hashlib
 from collections import defaultdict, Counter

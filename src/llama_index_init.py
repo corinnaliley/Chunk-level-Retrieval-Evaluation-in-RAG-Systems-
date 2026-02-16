@@ -16,8 +16,6 @@ Helper file to initialize the LLM and embedding model settings for LlamaIndex
 #     * temperature=0 reduces sampling randomness, but exact determinism still
 #       depends on the backend implementation and potential server-side changes.
 #
-# GitHub hygiene
-# - Do not hard-code API keys. Use env vars (see constants.py) and pass through init().
 # -----------------------------------------------------------------------------
 from llama_index.core.node_parser import SentenceSplitter
 from llama_index.llms.openai_like import OpenAILike

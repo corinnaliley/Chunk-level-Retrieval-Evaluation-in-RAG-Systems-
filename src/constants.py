@@ -15,9 +15,6 @@ It is the single source of truth for global configuration.
 #     * endpoints (LLM_API_ENDPOINT, SAIA_BASE_URL, SAIA_DOCLING_ENDPOINT)
 #     * repository commit hash
 #
-# GitHub hygiene
-# - Never commit secrets: LLM_API_KEY / SAIA_API_KEY must come from environment.
-# - Derived artifacts (storage, processed docs, results) belong in .gitignore.
 # -----------------------------------------------------------------------------
 
 from dotenv import load_dotenv

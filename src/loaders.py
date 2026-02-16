@@ -37,9 +37,6 @@ Typical use:
 #   "document representation" and therefore affects retrieval. Changes here are
 #   experimental changes and should be tracked (git commit + changelog).
 #
-# GitHub hygiene
-# - Do not commit derived artifacts (JSONL caches); keep them in .gitignore.
-# - Do not commit secrets; SAIA_API_KEY must come from environment variables.
 # -----------------------------------------------------------------------------
 
 from __future__ import annotations
