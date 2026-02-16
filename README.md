@@ -18,19 +18,20 @@ Die Evaluation erfolgt auf Chunk-Level mit:
 ---
 
 # Projektstruktur
-
+```
 src/
-│
-├── run_bench.py # Hauptskript (Orchestrierung)
-├── benchmark.py # Evaluationsmetriken
-├── retrievers.py # Retrieval-Strategien
-├── saia_reader.py # SAIA/Docling → LlamaIndex Dokumente
-├── loaders.py # Dokument-Konvertierung
-├── llama_index_init.py # LLM + Embedding Initialisierung
-├── cached_embedding.py # Embedding Cache
-├── testset.py # Benchmark-Testset (Gold-Referenzen)
-├── constants.py # Zentrale Konfiguration
-└── vllm_embeddings.py # vLLM Embedding Wrapper
+
+├── run_bench.py          # Hauptskript (Orchestrierung)
+├── benchmark.py          # Evaluationsmetriken
+├── retrievers.py         # Retrieval-Strategien
+├── saia_reader.py        # SAIA/Docling → LlamaIndex Dokumente
+├── loaders.py            # Dokument-Konvertierung
+├── llama_index_init.py   # LLM + Embedding Initialisierung
+├── cached_embedding.py   # Embedding Cache
+├── testset.py            # Benchmark-Testset (Gold-Referenzen)
+├── constants.py          # Zentrale Konfiguration
+└── vllm_embeddings.py    # vLLM Embedding Wrapper
+```
 
 ---
 ## Setup
